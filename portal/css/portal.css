@@ -1,0 +1,369 @@
+ /* NAVBAR ==================================================================*/
+ 
+ .logo {
+     z-index: 9999;
+     width: 10px;
+     margin-right: 10px;
+ }
+ 
+ .navbar {
+     border: none;
+     -webkit-transition: all 0.6s ease;
+     transition: all 0.6s ease;
+     width: 100%;
+     padding: 0px;
+     z-index: 9;
+ }
+ 
+ .form-login {
+     z-index: 9;
+ }
+ 
+ .icon-email {
+     position: relative;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     flex-direction: column;
+     display: flex;
+     overflow: auto;
+     text-decoration: none;
+ }
+ 
+ .contato-whatsapp {
+     background-image: url("../res/icon-whats.png") !important;
+     width: 20px;
+ }
+ 
+ .form-control {
+     height: 30px;
+ }
+ 
+ .action-button {
+     width: 55px;
+     height: 30px;
+     background: rgb(235, 211, 3);
+     font-weight: bold;
+     color: white;
+     border: 0 none;
+     border-radius: 1px;
+     cursor: pointer;
+     border-radius: 5px;
+ }
+ 
+ .action-button:hover {
+     box-shadow: 0 0 0 2px white, 0 0 0 3px rgb(208, 212, 167);
+ }
+ 
+ @media screen and (min-width: 1024px) {
+     .navbar {
+         display: flex;
+         justify-content: space-between;
+         height: 60px;
+         align-items: center;
+     }
+ }
+ 
+ @media screen and (max-width: 1400px) {
+     .nav-links {
+         margin-right: 10px;
+     }
+     .main-nav {
+         padding-left: 0px;
+         z-index: 9;
+     }
+ }
+ 
+ @media screen and (max-width: 1130px) {
+     .logo {
+         padding-left: 20px;
+         z-index: 9999;
+         width: 10px;
+     }
+ }
+ 
+ @media screen and (max-width: 450px) {
+     .logo {
+         padding-left: 0px;
+         z-index: 9999;
+         width: 10px;
+         margin-right: 10px;
+     }
+     .navbar {
+         margin-top: -1px;
+         padding: 0px;
+         z-index: 9;
+     }
+ }
+ /* PARALAX ==================================================================*/
+ 
+ .background-fundo {
+     background-color: rgb(247, 247, 247);
+ }
+ 
+ .parallax {
+     background-image: url("../res/img-home.png") !important;
+     height: 650px;
+     width: 900px;
+     background-repeat: no-repeat;
+     background-size: contain;
+ }
+ /* HOME ==================================================================*/
+ 
+ .title-company {
+     height: 250px;
+     padding-top: 160px;
+     text-align: center;
+ }
+ 
+ .text-title-1 {
+     font-size: 40px;
+     font-family: 'Nunito', sans-serif;
+     font-weight: 200;
+     color: black;
+ }
+ 
+ .conteudo-company {
+     height: 50px;
+     padding-top: 30px;
+     text-align: center;
+     padding-right: 70px;
+ }
+ 
+ .text-2 {
+     font-size: 20px;
+     font-family: 'Nunito', sans-serif;
+     font-weight: 200;
+     color: black;
+ }
+ 
+ .background-img-company {
+     background-color: rgb(229, 229, 229);
+     height: 240px;
+ }
+ 
+ .background-company {
+     background-color: rgb(0, 84, 175);
+     height: 300px;
+ }
+ 
+ @media screen and (max-width: 750px) {
+     .title-company {
+         height: 250px;
+         padding-top: 10px;
+         text-align: center;
+     }
+     .text-title-2 {
+         font-size: 40px;
+         padding-top: 10px;
+     }
+     .background-fundo {
+         background-color: rgb(247, 247, 247);
+         height: 1200px;
+     }
+     .conteudo-company {
+         padding-top: 10px;
+         text-align: center;
+     }
+ }
+ /* LANDPAGE ==================================================================*/
+ 
+ .box {
+     margin-top: 12px;
+     width: 50%;
+     float: left;
+     height: 50px;
+     /*Altura da linha*/
+ }
+ 
+ .linha-vertical {
+     border-left: 2px solid;
+     color: rgb(238, 220, 161);
+     /* Adiciona borda esquerda na div como ser fosse uma linha.*/
+     box-sizing: border-box;
+ }
+ 
+ .title-landpage {
+     padding-top: 90px;
+     text-align: center;
+ }
+ 
+ .img-card {
+     margin-top: 40px;
+     padding-right: 100px;
+     padding-left: 100px;
+ }
+ 
+ .landpage-padding-4 {
+     padding-left: 50px;
+ }
+ 
+ .img-card-row2 {
+     margin-top: 0px;
+     padding-right: 50px;
+ }
+ 
+ .img-fundo-landpage {
+     background-image: url("../res/img-landpage.png");
+     height: 490px;
+     background-attachment: fixed;
+     background-position: center;
+     background-size: cover;
+ }
+ 
+ .img-fundo-landpage-2 {
+     background-image: url("../res/img-landpage.png");
+     height: 360px;
+     background-attachment: fixed;
+     background-position: center;
+     background-size: cover;
+     margin-top: 0px;
+ }
+ 
+ .img-01 {
+     background-image: url("../res/img-01.png");
+     height: 150px;
+     background-position: center;
+     background-repeat: no-repeat;
+ }
+ 
+ .img-02 {
+     background-image: url("../res/img-02.png");
+     height: 150px;
+     background-position: center;
+     background-repeat: no-repeat;
+ }
+ 
+ .img-03 {
+     background-image: url("../res/img-03.png");
+     height: 150px;
+     background-position: center;
+     background-repeat: no-repeat;
+ }
+ 
+ .img-04 {
+     background-image: url("../res/img-04.png");
+     height: 150px;
+     background-position: center;
+     background-repeat: no-repeat;
+ }
+ 
+ .img-05 {
+     background-image: url("../res/img-05.png");
+     height: 150px;
+     background-position: center;
+     background-repeat: no-repeat;
+ }
+ 
+ .img-06 {
+     background-image: url("../res/img-06.png");
+     height: 150px;
+     background-position: center;
+     background-repeat: no-repeat;
+ }
+ 
+ @media screen and (max-width: 750px) {
+     .title-landpage {
+         margin-top: 0px;
+         text-align: center;
+     }
+     .landpage-padding-4 {
+         padding-left: 0px;
+     }
+ }
+ 
+ @media screen and (max-width: 450px) {
+     .img-fundo-landpage {
+         background-image: url("../res/img-landpage.png");
+         height: 1500px;
+         background-attachment: fixed;
+         background-position: center;
+         background-size: cover;
+     }
+ }
+ /* FOOTER ==================================================================*/
+ 
+ .row-footer {
+     height: 1px;
+     background-color: rgb(191, 191, 191);
+     margin-left: 100px;
+     margin-right: 100px;
+     margin-top: 340px;
+ }
+ 
+ .img-logo-rodape {
+     background-image: url("../res/logo-footer.png");
+     height: 80px;
+     background-position: center;
+     background-repeat: no-repeat;
+     margin-top: 20px;
+ }
+ 
+ .img-logo-roma {
+     background-image: url("../res/logo-roma.png");
+     height: 80px;
+     background-position: center;
+     background-repeat: no-repeat;
+ }
+ 
+ .text-footer {
+     margin-top: 20px;
+     font-size: 20px;
+     text-align: left;
+     margin-left: 70px;
+ }
+ 
+ .text-footer-2 {
+     margin-top: 0px;
+     font-size: 10px;
+ }
+ 
+ .landpage-home-footer {
+     margin-left: 0;
+     margin-right: 0;
+     color: rgb(129, 129, 129);
+     font-weight: bold;
+     font-size: 0.7rem;
+     padding: 20px;
+ }
+ /* FOOTER ================================================================*/
+ 
+ @media screen and (max-width: 1024px) {
+     .logo-roma {
+         margin-left: 20px;
+     }
+     .row-footer {
+         height: 2px;
+         margin-top: 450px;
+     }
+ }
+ 
+ @media screen and (max-width: 900px) {
+     .landpage-home-footer {
+         text-align: center;
+         font-weight: normal;
+         font-size: 0.6rem;
+         padding-top: 20px;
+         padding-bottom: 20px;
+     }
+     .row-footer {
+         height: 2px;
+         margin-top: 750px;
+     }
+ }
+ 
+ @media screen and (max-width: 450px) {
+     .landpage-home-footer {
+         padding-top: 500px;
+     }
+     .landpage-home-footer-text {
+         margin-bottom: 0px;
+     }
+     .row-footer {
+         height: 2px;
+         background-color: rgb(191, 191, 191);
+         margin-left: 0px;
+         margin-right: 0px;
+         margin-top: 750px;
+     }
+ }

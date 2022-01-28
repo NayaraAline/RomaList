@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br" ng-app="app">
+
+<head>
+
+    <title>RomaList</title>
+
+    <meta http-equiv=”Content-Type” content=”text/html; charset=utf-8″>
+    <meta name="author" content="Fusion Corporações Ltda">
+    <meta name="description" content="RomaLista - Validação segura">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'; img-src * data: 'unsafe-inline'; connect-src * 'unsafe-inline'; frame-src *;">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" type="image/png" href="./favicon.png" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="portal/third-party/fontawesome/v6.0.0/css/all.min.css">
+
+
+
+    <!--Styles -->
+
+    <link rel="stylesheet" href="./portal/css/portal.css">
+
+
+
+    <body>
+
+        <!--NAVBAR-->
+        <div>
+            <nav class="navbar">
+                <div class="col-sm-12">
+                    <div class="col-sm-4">
+                        <a href="" class="logo" style="margin-right: 100px;">
+                            <img id="imagem" src="./portal/res/img-logo-romalist.png" height="45px" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-5" style="margin-top: 15px;">
+                        <div class="row form-login">
+                            <div class="col-sm-12">
+                                <div class="col-sm-1">
+                                    <i class="icon-email fas fa-envelope fa-2x" style="width: 30px; color:rgb(235, 211, 3);"></i>
+                                </div>
+                                <div class="col-sm-6" style="padding: 0px;">
+                                    <input id="txtLogin" type="text" class="form-control" ng-model="model.username" placeholder="Informe seu e-mail">
+                                </div>
+                                <div class="col-sm-1">
+                                    <i class="fas fa-lock fa-2x" style="width: 30px; color:rgb(235, 211, 3)"></i>
+                                </div>
+                                <div class="col-sm-3" style="padding: 0px;">
+                                    <input id="txtLogin" type="text" class="form-control" ng-model="model.username" placeholder="Digite sua senha">
+                                </div>
+                                <div class="col-sm-1">
+                                    <a href="./portal/html/search.html">
+                                        <input type="button" name="next" class="next action-button" value="Entrar" />
+                                    </a>
+                                </div>
+
+
+
+
+
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1" style="margin-top: 15px; padding-right: 20px;">
+                        <a href="https://web.whatsapp.com/send?phone=553499665672" target="_blank" class="logo" style="margin-right: 100px;">
+                            <img id="imagem" src="./portal/res/icon-whats.png" height="28px" alt="WhatsApp">
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+
+        <!--HOME -->
+        <div class="row background-fundo">
+            <div class="col-sm-12" style="margin: 0; padding: 0;">
+                <div class="col-sm-6">
+                    <div class="parallax"></div>
+                </div>
+                <div class="col-sm-6 background-ipad">
+                    <h2 class="title-company">
+                        <p class="text-title-1">Cadastro
+                            <spam style="color:rgb(255, 199, 0)">transparente</spam>, validação <span style="color:rgb(255, 199, 0)">segura</span> e mais <span style="color:rgb(255, 199, 0)"> confiança </span>na relçao com os clientes
+                        </p>
+                    </h2>
+                    <h2 class="conteudo-company ">
+                        <span class="text-2 ">Garantimos processos ágeis, confiáveis e escaláveis para validação
+                            de identidade, verificando informações de pessoas e empresas,
+                            para se prevenir contra fraudes com segurança
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+
+        
+        <!--landpage -->
+        <div class="row img-fundo-landpage ">
+            <div class="box"></div>
+            <div class="box linha-vertical"></div>
+            <h2 class="title-landpage text-title-1">Prevenção a lavagem de dinheiro</h2>
+            <div class="col-sm-12 img-card" >
+                <div class="col-sm-4 ">
+                    <div class="row ">
+                        <div class="img-01 "></div>
+                    </div>
+                    <div class="col-sm-12 ">
+                        <div class="row" style="font-size: 17px; ">Consulta a lista da OFAC</div>
+                        <div class="row " style="color: rgb(153, 153, 153); font-size: 15px; ">Consulta à lista da OFAC com checagens diárias para prover uma melhor qualidade dos dados e garantir a segurança de relações comerciais com parceiros e clientes. </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 ">
+                    <div class="row ">
+                        <div class="img-02 "></div>
+                    </div>
+                    <div >
+                        <div class="row" style="font-size: 17px; ">Agilidade na conferência de dados</div>
+                        <div class="row " style="color: rgb(153, 153, 153); font-size: 15px; ">Automatiza a checagem e validação de dados de pessoas e empresas. Verifica a regularidade do CPF ou CNPJ, antecedentes criminais, protestos, processos e muito mais </div>   
+                    </div>
+                </div>
+                <div class="col-sm-4 landpage-padding-4">
+                    <div class="row ">
+                        <div class="img-03 "></div>
+                    </div>
+                    <div class="col-sm-12 ">
+                        <div>
+                            <div class="row" style="font-size: 17px; ">Conformidade com as leis e regulamentações</div>
+                            <div class="row " style="color: rgb(153, 153, 153); font-size: 15px; ">Nossa solução facilita a adequação às normas e leis de proteção de dados como a LGPD (Lei Geral de Proteção de Dados) e a GDPR (General Data Protection Regulation) </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 img-card img-fundo-landpage-2">
+                <div class="col-sm-4">
+                    <div class="row ">
+                        <div class="img-04"></div>
+                    </div>
+                    <div class="col-sm-12 ">
+                        <div>
+                            <div class="row" style="font-size: 17px; ">Prevenção de fraudes</div>
+                            <div class="row " style="color: rgb(153, 153, 153); font-size: 15px; ">Previna-se contra fraudes de identidade e lavagem de dinheiro (PLD/AML) obtendo informações de inúmeras fontes oficiais, simultaneamente, e com atualizações constantes </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 ">
+                    <div class="row ">
+                        <div class="img-05 "></div>
+                    </div>
+                    <div class="col-sm-12 ">
+                        <div>
+                            <div class="row" style="font-size: 17px; ">Background Check</div>
+                            <div class="row " style="color: rgb(153, 153, 153); font-size: 15px; ">Faça consulta em mais de 250 fontes de dados de forma ágil e prática. </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 landpage-padding-4 ">
+                    <div class="row ">
+                        <div class="img-06 "></div>
+                    </div>
+                    <div class="col-sm-12 ">
+                        <div>
+                            <div class="row" style="font-size: 17px; ">Automação dos processos de KYC, KYE, KYP , KYS e PEP</div>
+                            <div class="row " style="color: rgb(153, 153, 153); font-size: 15px; ">Melhore a experiência dos seus clientes agilizando os processos de Know Your Customer, Know Your Employee, Know Your Partner, Know Your Supplier e Pessoas Expostas Politicamente </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <!--footer -->
+        <div class="row-footer">
+
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="col-sm-6">
+                    <div class="img-logo-rodape"></div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="row text-footer"> Nosso escritório</div>
+                    <div class="col-sm-12">
+                        <div class="col-sm-2 footer-logo-roma">
+                            <a href="http://www.romaconsulting.com.br/" class="logo-roma">
+                                <img id="imagem" src="./portal/res/logo-roma.png" height="65px" alt="Logo">
+                            </a>
+                        </div>
+                        <div class="col-sm-10">
+                            <div class="row text-footer-2 logo-roma"> Roma Consulting <br> Rua Rio de Janeiro, 353 - B. Brasil - Uberlândia - MG<br> Edifício Neo Office - Salas 207 e 209,<br> CNPJ: 04.703.775/0001-84
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row landpage-home-footer" style="float: right; padding-top: 0px;">
+                        <a href="./policy.html">
+                            Política de Privacidade e Termos de Uso
+                        </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="http://www.romaconsulting.com.br/">© Copyright 2020 - Todos os
+                            direitos são reservados à Roma consulting Ltda
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </body>
+
+
+
+    
+</html>
